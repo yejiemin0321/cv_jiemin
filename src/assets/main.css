@@ -1,0 +1,17 @@
+html{
+    background-image: url(../img/ba.jpg);
+        background-size: cover;
+}
+.home{
+    width: 80%;
+}
+.personne-info{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.detail-container{
+    margin-top: 50px;
+    margin-left: 6%;
+    display: flex;
+}

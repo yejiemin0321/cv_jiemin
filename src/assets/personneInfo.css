@@ -1,0 +1,36 @@
+.image-block img{
+    width: 250px;
+    border-radius: 20px;
+}
+.PersonneInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.greet-block{
+    font-size: 36px;
+    color: rgb(57, 126, 170)
+}
+.name-block{
+    font-size: 66px;
+    font-weight: 600;
+    color: grey
+}
+.profile-block{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.utc{
+    height: 48px;
+}
+.and-more-block{
+    color: rgb(57, 126, 170);
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+.detail-btn{
+    list-style-type:none;
+}
+.btn-no-clicked{
+    background-color: rgb(120, 180, 214);
+    border-color: beige;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.detail-btn button:hover{
+    width: 120px;
+    background-color: rgb(52, 141, 213);
+}
+.btn-clicked{
+    width: 120px;
+    background-color: rgb(52, 141, 213);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+};
+.detail-btn img{
+    width: 50px;
+}
+.btn-no-clicked span{
+    visibility: hidden
+}
+.btn-no-clicked:hover span{
+    visibility: visible;
+}
+.btn-clicked span{
+    visibility: visible;
+    margin-left:5px;
+    font-weight: bold;
+}
+.detail-btns{
+    display: flex;
+}

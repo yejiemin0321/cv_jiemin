@@ -1,0 +1,17 @@
+.Navbar{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Navbar div{
+    padding-right: 10px;
+}
+.socialItem img{
+    width: 32px;
+}
+.download button{
+    height: 100%;
+    background-color: rgb(107, 147, 228); /* Couleur de fond */
+    border: none; /* Supprime la bordure */
+    color: white; /* Couleur du texte */
+    border-radius: 20px;
+}
